@@ -5,6 +5,8 @@ import random as rnd
 import base64
 import tempfile
 
+# КОНФЛІКТНА ВЕРСІЯ 1
+
 """ -----------------------Шрифт------------------------------"""
 font_base64 = """
 
@@ -889,7 +891,7 @@ def solo():
 
 def multiLocal(currentBrickSetting):
     """
-    Локальний мультиплеєр
+    Мультиплеєр Локал
     """
     players = []
     grids = []
