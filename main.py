@@ -5,6 +5,8 @@ import random as rnd
 import base64
 import tempfile
 
+# КОНФЛІКТНА СПРОБА НОМЕРР 2
+
 """ -----------------------Шрифт------------------------------"""
 font_base64 = """
 
