@@ -155,7 +155,7 @@ class Grid:
                 try:
                     if self.grid[x + i][y + j] and int(self.Pieces.pieces[figure][i][j]):
                         err += 1
-                except:
+                except Exception:
                     pass
         if err:
             return False
@@ -172,7 +172,7 @@ class Grid:
             for j in range(5):
                 try:
                     self.grid[x + i][y + j] += int(Piece.figure[i][j])
-                except:
+                except Exception:
                     pass
 
     def isThereAlignment(self):
@@ -1083,4 +1083,5 @@ def multiIA():
 
 if __name__ == '__main__':
     menu()
+
 
