@@ -6,10 +6,8 @@ import base64
 import tempfile
 
 import os
-from dotenv import load_dotenv
 
-load_dotenv()  # Завантажує .env за замовчуванням
-APP_STATUS = os.getenv('APP_STATUS', 'Development')
+APP_STATUS = "Production Mode"
 
 """ -----------------------Шрифт------------------------------"""
 font_base64 = """
