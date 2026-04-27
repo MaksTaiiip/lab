@@ -60,3 +60,12 @@ jobs:
             files: dist/*
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        - name: Deploy to itch.io
+          uses: josephbmanley/butler-publish-itchio-action@v1.0.3
+          env:
+            BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+            CHANNEL: windows
+            ITCH_GAME: blockpuzzle
+            ITCH_USER: makstaip
+            PACKAGE: dist/
