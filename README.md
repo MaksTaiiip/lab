@@ -1,3 +1,5 @@
+[![CI/CD Pipeline](https://github.com/MaksTaiiip/lab/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/MaksTaiiip/lab/actions/workflows/ci-cd.yml)
+
 # Гра Блок-пазл
 
 Блок-пазл — це інтелектуальна гра на базі Pygame, де гравець розміщує фігури на сітці 10×10, очищує лінії та змагається за максимальну кількість балів у трьох різних режимах.
