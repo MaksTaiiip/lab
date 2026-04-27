@@ -5,8 +5,6 @@ import random as rnd
 import base64
 import tempfile
 
-import os
-
 APP_STATUS = "Production Mode"
 
 """ -----------------------Шрифт------------------------------"""
